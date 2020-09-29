@@ -3,4 +3,5 @@
 
  List/Loops CS 1.0 Quiz #2 Code
 
- Comments are from original quiz. Copied/pasted comments for future teaching/explanation reference
+ Majority of the comments are from original quiz.
+ I copied/pasted the quiz comments for future teaching/explanation purposes
