@@ -58,9 +58,72 @@ songs[2] = "End of the Road" #Boyz II Men
             #       songs.insert(0, "Life Is Good")
 
 # TASK: add three songs of your choice to your songs list in your list_loops.py file
-songs.append("On Bended Knee", "Water Runs Dry", "Back At One")
-# LOL sorry I was watching Fresh Prince Boyz II Men episode while doing quiz
+songs.extend(["On Bended Knee", "Water Runs Dry", "Back At One"])
+# print(songs)
+# LOL sorry to whoever is looking at this lol I was watching Fresh Prince BelAir Boyz II Men episode while doing quiz
+
+
+# There are also several methods that can remove elements from a list:
+            # removes element from list
+            #        songs.remove("ROCKSTAR")
+            # removes and returns element at specific index
+            #       songs.pop(1)
+            # removes all elements from a list
+            #       songs.clear()
+            # delete the 3rd element
+            #       del songs[3]
+
+
+# TASK: delete one of the elements in your songs list in your list_loops.py file
+del songs[4] # deletes 'water runs dry' 
 print(songs)
+
+
+# QUESTION 5:
+# Lists Combined with Loops
+# Loops let us repeat blocks of code over and over and over...without having to write tons of code!
+# If we want to repeat something a specified number of times we can use a for loop.
+
+# There are a couple different ways we can print out all the items in a list using a for loop:
+            # Option 1
+            # for song in songs:
+            #      print(song) 
+
+            # Option 2
+            # for i in range(len(songs)):
+            #    print(songs[i])
+
+# TASK: What are the differences between these two approaches?
+# In option 1, you are creating the temporary variable song to be from the former variable 'songs,' 
+# and then printing the new variable 'song' out. Which would print what ever was in the previous variable "songs."
+# For option 2, you are specifically using the 'for i in range()' iterator variable, and
+# specifically making the range/parameter as the current LENGTH of the songs list.
+
+
+# QUESTION 6:
+# Final Task:
+# 1. Create another list called 'animals' and fill it with 3 animal strings 
+        # of your choice such as "Cat", "Dog", and "Bird"
+animals = ["dog", "cat", "mouse"]
+
+# 2. Add another animal to your list
+animals.append("bear")
+# 3. print out the 3rd animal in the list // should print out 'mouse'
+print(animals[2])
+# 4. Delete the first animal in the list
+animals.remove("dog")
+# 5. Use a loop to print out all the animals in your animals list
+for i in animals:
+    print(i) # should print out 'cat , mouse , bear' 
+# 6. Paste the link to your code ON GRADESCOPE QUIZ when you have completed the tutorial tasks
+
+
+
+
+
+
+
+
 
 
 
