@@ -116,17 +116,3 @@ animals.remove("dog")
 for i in animals:
     print(i) # should print out 'cat , mouse , bear' 
 # 6. Paste the link to your code ON GRADESCOPE QUIZ when you have completed the tutorial tasks
-
-
-
-
-
-
-
-
-
-
-
-
-
-
